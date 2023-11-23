@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static{
+            position: static;
+            border: 5px dashed rgb(66, 5, 124);
+            margin: 20px;
+        }
+        .sticky{
+            position: sticky;
+            border: 5px dashed rgb(66, 5, 124);
+            margin: 20px;
+        }
+
+        .relative{
+            position: relative;
+            border: 5px dashed rgb(66, 5, 124);
+            margin: 20px;
+        }
+        .absolute{
+            position: absolute;
+            border: 5px dashed rgb(66, 5, 124);
+            margin: 20px;
+            top: 50px;
+        }
+       .fixed{
+            position: fixed;
+            border: 5px dashed rgb(66, 5, 124);
+            margin: 10px;
+            top: 10px;
+        }
+        .main{
+            height: 1000px;
+            width: auto;background-color: bisque;
+            text-align: justify;
+        }
+        .scroll{
+            width: 30vw;
+            height: 20vw;
+            background-color: aquamarine;
+            overflow: scroll;
+            padding: 10px;
+
+        }
+        .visible{
+            width: 30vw;
+            height: 20vw;
+            background-color: aquamarine;
+            overflow: visible;
+            padding: 10px;
+            margin-right: 5px;
+
+        }
+        .hidden{
+            width: 30vw;
+            height: 20vw;
+            background-color: aquamarine;
+            overflow: hidden;
+            padding: 10px;
+
+        }
+        .auto{
+            width: 30vw;
+            height: 20vw;
+            background-color: aquamarine;
+            overflow: auto;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+   <div class="main"><br><br><br><br><br><h1  style="text-align: center;">position</h1>
+    <div class="static"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus eius alias
+         at impedit reiciendis odio sint aspernatur repellat in quisquam, quas aliquam laboriosam
+          maxime, corrupti nemo possimus nostrum. Modi!</div>
+     <div class="sticky"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus eius alias
+            at impedit reiciendis odio sint aspernatur repellat in quisquam, quas aliquam laboriosam
+             maxime, corrupti nemo possimus nostrum. Modi!</div>
+  <div class="relative"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus eius alias
+            at impedit reiciendis odio sint aspernatur repellat in quisquam, quas aliquam laboriosam
+                 maxime, corrupti nemo possimus nostrum. Modi!</div>
+    <div class="absolute"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus eius alias
+            at impedit reiciendis odio sint aspernatur repellat in quisquam, quas aliquam laboriosam
+                 maxime, corrupti nemo possimus nostrum. Modi!</div><br><br>
+    <div class="fixed"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus eius alias
+            at impedit reiciendis odio sint aspernatur repellat in quisquam, quas aliquam laboriosam
+                 maxime, corrupti nemo possimus nostrum. Modi!</div>
+                 <section style="display: flex;"> 
+    <div class="scroll">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste totam beatae, debitis aliquid
+         quibusdam adipisci in a molestiae ipsam voluptate. Ex minima porro nihil sit pariatur commodi 
+         nostrum voluptate consequuntur?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perferendis expedita esse repellendus officia, laborum illo molestias itaque exercitationem 
+          repudiandae minima. Unde vero laborum doloribus natus deserunt iste esse facilis libero!
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem sint saepe laudantium quo 
+           exercitationem magnam maxime ab tempore veniam iusto eveniet nesciunt omnis minus, esse 
+           recusandae! Minima dolores accusantium repudiandae. Lorem, ipsum dolor sit amet consectetur 
+           adipisicing elit. Quod, incidunt sed! Est, quam? Ad doloremque nulla, officia, iste deleniti
+            modi, quae animi cum unde quia sit quo culpa eligendi libero!</div>
+    <div class="visible">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste totam beatae, debitis aliquid
+             quibusdam adipisci in a molestiae ipsam voluptate. Ex minima porro nihil sit pariatur commodi 
+        nostrum voluptate consequuntur?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Perferendis expedita esse repellendus officia, laborum illo molestias itaque exercitationem 
+             repudiandae minima. Unde vero laborum doloribus natus deserunt iste esse facilis libero!
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem sint saepe laudantium quo 
+              exercitationem magnam maxime ab tempore veniam iusto eveniet nesciunt omnis minus, esse 
+              recusandae! Minima dolores accusantium repudiandae. Lorem, ipsum dolor sit amet consectetur 
+              adipisicing elit. Quod, incidunt sed! Est, quam? Ad doloremque nulla, officia, iste deleniti
+               modi, quae animi cum unde quia sit quo culpa eligendi libero!</div>
+               <div class="hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste totam beatae, debitis aliquid
+                quibusdam adipisci in a molestiae ipsam voluptate. Ex minima porro nihil sit pariatur commodi 
+                nostrum voluptate consequuntur?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Perferendis expedita esse repellendus officia, laborum illo molestias itaque exercitationem 
+                 repudiandae minima. Unde vero laborum doloribus natus deserunt iste esse facilis libero!
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem sint saepe laudantium quo 
+                  exercitationem magnam maxime ab tempore veniam iusto eveniet nesciunt omnis minus, esse 
+                  recusandae! Minima dolores accusantium repudiandae. Lorem, ipsum dolor sit amet consectetur 
+                  adipisicing elit. Quod, incidunt sed! Est, quam? Ad doloremque nulla, officia, iste deleniti
+               modi, quae animi cum unde quia sit quo culpa eligendi libero!</div></section>
+  <div class="auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste totam beatae, debitis aliquid
+           quibusdam adipisci in a molestiae ipsam voluptate. Ex minima porro nihil sit pariatur commodi 
+                    nostrum voluptate consequuntur?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Perferendis expedita esse repellendus officia, laborum illo molestias itaque exercitationem 
+             repudiandae minima. Unde vero laborum doloribus natus deserunt iste esse facilis libero!
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem sint saepe laudantium quo 
+                 exercitationem magnam maxime ab tempore veniam iusto eveniet nesciunt omnis minus, esse 
+              recusandae! Minima dolores accusantium repudiandae. Lorem, ipsum dolor sit amet consectetur 
+             adipisicing elit. Quod, incidunt sed! Est, quam? Ad doloremque nulla, officia, iste deleniti
+                   modi, quae animi cum unde quia sit quo culpa eligendi libero!</div>
+    </div>
+</body>
+</html>
